@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import ThemeSwitchButton from "@/components/button/ThemeSwitchButton";
 
 export default function Home() {
   return (
-    <div>test</div>
-  )
+    <div>
+      <ThemeSwitchButton>Test </ThemeSwitchButton>
+    </div>
+  );
 }
