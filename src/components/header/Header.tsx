@@ -1,6 +1,11 @@
 "use client";
 
-import ThemeSwitchButton from "@/components/button/ThemeSwitchButton";
+import dynamic from "next/dynamic";
+
+const ThemeSwitchButton = dynamic(
+  () => import("@/components/button/ThemeSwitchButton"),
+  { ssr: false }
+);
 
 const Header = () => {
   return (
@@ -11,6 +16,7 @@ const Header = () => {
           <div>link 1</div>
           <div>link 2</div>
         </div>
+        <ThemeSwitchButton />
       </div>
     </div>
   );
