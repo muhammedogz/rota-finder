@@ -1,5 +1,6 @@
 "use client";
 
+import Logo from "@/components/header/Logo";
 import { Button } from "@/components/ui/button";
 import { GithubIcon } from "lucide-react";
 import dynamic from "next/dynamic";
@@ -14,7 +15,7 @@ const Header = () => {
   return (
     <div className="bg-background/20 absolute top-0 left-0 right-0">
       <div className="flex justify-between items-center px-10 py-5">
-        <div>logo</div>
+        <Logo />
         <div className="flex justify-end items-center gap-10 ">
           <div>link 1</div>
           <div>link 2</div>
