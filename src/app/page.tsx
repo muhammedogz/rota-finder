@@ -1,5 +1,6 @@
 import BackgroundImage from "@/components/BackgroundImage";
 import Caption from "@/components/Caption";
+import ProfileForm from "@/components/form/FindRoteForm";
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
       <div></div>
       <div></div>
       <Caption />
-      <div></div>
+      <div>
+        <ProfileForm />
+      </div>
     </div>
   );
 }
