@@ -1,6 +1,6 @@
 import BackgroundImage from "@/components/BackgroundImage";
 import Caption from "@/components/Caption";
-import ProfileForm from "@/components/form/FindRoteForm";
+import FindRouteForm from "@/components/form/FindRouteForm";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <div></div>
       <Caption />
       <div>
-        <ProfileForm />
+        <FindRouteForm />
       </div>
     </div>
   );
